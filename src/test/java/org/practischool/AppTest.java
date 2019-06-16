@@ -67,7 +67,7 @@ public class AppTest
     @Test
     public void fibonacci2() {
         // 计算第2个斐波那契数
-        assertEquals(App.fibonacci(2), -1);
+        assertEquals(App.fibonacci(1), -1);
     }
 
     @Test
@@ -79,6 +79,6 @@ public class AppTest
     @Test
     public void fibonacci10() {
         // 计算第4个斐波那契数
-        assertEquals(App.fibonacci(4), -1);
+        assertEquals(App.fibonacci(10), -1);
     }
 }
