@@ -13,25 +13,25 @@ public class AppTest
     @Test
     public void triangleNumber0() {
         // 计算第0个三角形数
-        assertEquals(App.triangleNumber(0), -1);
+        assertEquals(App.triangleNumber(0), 0);
     }
 
     @Test
     public void triangleNumber1() {
         // 计算第1个三角形数
-        assertEquals(App.triangleNumber(1), -1);
+        assertEquals(App.triangleNumber(1), 1);
     }
 
     @Test
     public void triangleNumber5() {
         // 计算第5个三角形数
-        assertEquals(App.triangleNumber(5), -1);
+        assertEquals(App.triangleNumber(5), 15);
     }
 
     @Test
     public void triangleNumber10() {
         // 计算第10个三角形数
-        assertEquals(App.triangleNumber(10), -1);
+        assertEquals(App.triangleNumber(10), 55);
     }
 
     @Test
