@@ -37,25 +37,25 @@ public class AppTest
     @Test
     public void factorial0() {
         // 计算0的阶乘
-        assertEquals(App.factorial(0), -1);
+        assertEquals(App.factorial(0),1);
     }
 
     @Test
     public void factorial1() {
         // 计算1的阶乘
-        assertEquals(App.factorial(1), -1);
+        assertEquals(App.factorial(1),1);
     }
 
     @Test
     public void factorial5() {
         // 计算5的阶乘
-        assertEquals(App.factorial(5), -1);
+        assertEquals(App.factorial(5),1);
     }
 
     @Test
     public void factorial10() {
         // 计算10的阶乘
-        assertEquals(App.factorial(10), -1);
+        assertEquals(App.factorial(10),1);
     }
 
     @Test
